@@ -1,0 +1,61 @@
+h1{
+    color: #F28C81;
+    font-weight:bolder;
+    font-size: 40;
+    font-family:serif;
+}
+
+body{
+    background-color:#C3EBED; 
+}
+
+.tealbackground {
+    width:27%;
+    background-color:#8AC6BF;
+    font-weight:40; 
+    font-size:20px;
+    font-family:serif; 
+    color:white;
+}
+
+.description {
+    color:#FF9ED6;
+    font-size=40px;
+    font-family:serif;
+}
+
+#santorini {
+    color:#01395C;
+    font-size=20px;
+    font-family:fantasy;
+}
+
+#navynews{
+    color:#01395C;
+    font-size=20px;
+}
+
+span1{
+    text-decoration:underline;
+}
+
+nav ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    width:125px;
+    background-color:;
+}
+
+li a {
+    text-decoration:none;
+    font-family: sans-serif;
+    font-size: 25px;
+    color:#5496A8;
+}
+
+li a:hover {
+    background-color:#01395C;
+    color: white;
+
+}
