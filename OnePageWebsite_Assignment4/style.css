@@ -1,0 +1,128 @@
+nav {
+    text-align:center;
+    background-color: #90A5C7;
+    position: fixed;
+    width: 100%;
+    
+}
+
+nav li {
+    display:inline;
+    padding: 70px; 
+}
+
+nav a {
+    color: #11454F;
+    font-size: 25px; 
+    font-family:"Indie Flower";
+    font-style:oblique; 
+}
+
+.flowerfont {
+    font-family:"Indie Flower";
+    color: #11454F;
+}
+
+.phandfont {
+    font-family: "Patrick Hand", cursive;
+    color: #11454F;
+}
+
+#titletext {
+    font-size:35px;
+    text-align:center;
+}
+
+#byvidatext {
+    font-size:25px;
+    text-align:center;
+}
+
+#aboutmetext {
+    font-size:26px;
+    text-align:center;
+    
+}
+
+span1{
+    text-decoration:underline;
+}
+
+a {
+    color:#11454F;
+}
+
+a:visited {
+    color:#4C618A;
+    
+}
+
+.column {
+  float: left;
+  width: 32.48%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.recipeDescription { 
+    font-family: "Patrick Hand", cursive; 
+    font-size: 30px;
+    color:#EB9488;
+    text-align:center;
+}
+
+.recipeImg {
+    width:400x;
+    height:600px;
+}
+
+.productsDescription { 
+    font-family: "Patrick Hand", cursive; 
+    font-size: 30px;
+    color:#FBC9CC;
+    text-align:center;
+}
+
+
+#home {
+    background-color:#93D9D8;
+    height:900px;
+    padding:30px;
+    padding-top:80px; 
+}
+
+#aboutme {
+    background-color:#FEE2D7 ;
+    height:800px;
+    padding:30px;
+
+}
+
+#recipes {
+    background-color: #FCF2CA;
+    height:800px;
+    padding:30px; 
+}
+
+#favoriteproducts {
+    background-color: #B0828F;
+    height:900px;
+    padding:30px; 
+}
+
+#contactme {
+    background-color: #82D4C1;
+    height:200px;
+    padding:30px; 
+}
