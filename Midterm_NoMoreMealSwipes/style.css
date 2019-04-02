@@ -1,0 +1,228 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.bodycolor {
+    background-color: #FCFFF6; 
+}
+
+.navbartitle{
+    margin-left: -40px;
+    color: #364959; 
+    font-size: 30px;
+    font-family: "Handlee";
+}
+
+nav li { 
+    display:inline;
+    padding:20px;
+}
+
+nav a {
+    color: #11454F;
+    font-size: 22px;
+    font-family: "Handlee";
+    font-style:oblique;
+    box-sizing:border-box; 
+}
+
+
+.dropdownmenu{
+    display:inline-block;
+}
+
+.dropdown-content{
+    padding:10px;
+    display:none; 
+    position:absolute; 
+    background-color:#FCFFF6;
+    min-width:80px;
+    z-index:1; 
+}
+
+.dropdown-text {
+    display: inline-block;
+    font-size:16px;
+    text-decoration:none;
+    font-family:"Handlee";
+    font-style: normal;
+    
+}
+
+.dropdownmenu:hover .dropdown-content{
+    display:inline-block;
+}
+
+
+.dropdown-text:hover{
+    text-decoration:underline;
+}
+
+#titlepagetext{
+    color:#F19D94;
+    font-size: 70px;
+    font-family: "Handlee";
+    font-style:oblique;
+    font-weight: 400;
+    text-align:center;
+}
+
+#byvidatext{
+    color:#F19D94;
+    font-size: 50px;
+    font-family: "Handlee";
+    font-style:oblique;
+    font-weight: 400;
+    text-align:center; 
+}
+
+#homeimage {
+    display:block;
+    margin-left:auto; 
+    margin-right:auto;
+    width:90%;
+    
+}
+
+#homedescription{
+    text-align:center; 
+    color:#F19D94; 
+    font-family: "Handlee"; 
+    font-size:25px; 
+}
+
+#instagram { 
+    padding:10px; 
+    font-size:30px; 
+    text-decoration: none; 
+    border-radius: 50%; 
+    
+}
+
+#pinterest { 
+    font-size:30px; 
+    text-decoration: none; 
+    border-radius: 50%; 
+}
+
+
+.mainpagefont {
+    color: #11454F;
+    font-size: 60px;
+    font-family: "Handlee";
+    font-style:normal;
+    font-weight:600; 
+    text-align:center;
+}
+
+.subtitlefont {
+    color:#D19B91; 
+    font-size:30px; 
+    font-family: "Handlee"; 
+    font-style:italic; 
+    text-align: center; 
+    
+}
+
+.centerimage {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.descriptiontext {
+    color: #11454F;
+    font-size: 20px;
+    font-family: "Handlee";
+    font-style:normal;
+    text-align:center;
+     line-height:35px; 
+}
+
+.floatright {
+    float:right; 
+}
+
+span1{
+    text-decoration:underline;
+}
+
+.cards {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    width:auto; 
+    height:auto;  
+}
+
+.card {
+    background:#D8BBB7; 
+    width:400px;  
+    flex: 0 1 calc(25%-1em);  
+    flex-direction:row;
+    padding-left:1.4em; 
+    padding-right:1.4em; 
+    margin-bottom:2em; 
+    border-radius:10px;
+}
+
+.cardheader {
+    color:white;   
+    font-family: "Handlee"; 
+    font-size:20px; 
+    font-style:normal;
+    text-align:center;  
+    
+}
+
+.card-main {
+    display:flex;  
+    justify-content:center; 
+    align-items:center; 
+}
+
+.imagecard {
+    display:flex; 
+    justify-content: center; 
+    border:0;  
+    padding-left: 2em; 
+    padding-right:2em; 
+    padding-top:2em; 
+    padding-bottom:2em;
+    width:50%; 
+}
+
+.grocerystores {
+    text-align:center; 
+    color:#024253; 
+    font-family: "Handlee"; 
+    font-size:25px; 
+}
+
+.grocerytext {
+    text-align:center; 
+    color:#609691; 
+    font-family: "Handlee"; 
+    font-size:22px; 
+    line-height:30px; 
+}
+
+li {
+    list-style:circle;
+    line-height:50px; 
+    color:#3A6D94;
+    font-family:"Handlee";
+    font-size:20px; 
+}
+
+.cardingredients {
+    color:white;   
+    font-family: "Handlee"; 
+    font-size:14px; 
+    font-style:normal;
+    text-align:center; 
+     list-style:circle;
+    line-height:35px; 
+    
+}
