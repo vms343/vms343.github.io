@@ -1,0 +1,340 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.bodycolor {
+    background-color:#FCFFF6; 
+}
+
+.navbartitle{
+    margin-left:-40px; 
+    color: #364959; 
+    font-size: 22px;
+    font-family: "Handlee";
+}
+
+nav li { 
+    display:inline;
+    padding:15px;
+}
+
+nav a {
+    color: #11454F;
+    font-size:16px;
+    font-family: "Handlee";
+    font-style:oblique;
+    box-sizing:border-box; 
+}
+
+
+.dropdownmenu{
+    display:inline-block;
+}
+
+.dropdown-content{
+    padding:10px;
+    display:none; 
+    position:absolute; 
+    background-color:#FCFFF6;
+    min-width:80px;
+    z-index:1; 
+}
+
+.dropdown-text {
+    display: inline-block;
+    font-size:12px;
+    text-decoration:none;
+    font-family:"Handlee";
+    font-style: normal;
+}
+
+.dropdownmenu:hover .dropdown-content{
+    display:inline-block;
+}
+
+
+.dropdown-text:hover{
+    text-decoration:underline;
+}
+
+#titlepagetext{
+    color:#F19D94;
+    font-size: 40px;
+    font-family: "Handlee";
+    font-style:oblique;
+    font-weight: 400;
+    text-align:center;
+}
+
+#byvidatext{
+    color:#F19D94;
+    font-size: 25px;
+    font-family: "Handlee";
+    font-style:oblique;
+    font-weight: 400;
+    text-align:center; 
+}
+
+#homeimage {
+    display:block;
+    margin-left:auto; 
+    margin-right:auto;
+    width:90%;
+    
+}
+
+#homedescription{
+    text-align:center; 
+    color:#F19D94; 
+    font-family: "Handlee"; 
+    font-size:18px; 
+}
+
+#instagram { 
+    padding:10px; 
+    font-size:30px; 
+    text-decoration: none; 
+    border-radius: 50%;
+    width:50px; 
+    height:50px; 
+    
+}
+
+#pinterest { 
+    font-size:30px; 
+    text-decoration: none; 
+    border-radius: 50%;
+    width:50px; 
+    height:50px;
+}
+
+
+.mainpagefont {
+    color: #11454F;
+    font-size: 60px;
+    font-family: "Handlee";
+    font-style:normal;
+    font-weight:600; 
+    text-align:center;
+}
+
+.subtitlefont {
+    color:#D19B91; 
+    font-size:30px; 
+    font-family: "Handlee"; 
+    font-style:italic; 
+    text-align: center; 
+    
+}
+
+.centerimage {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.descriptiontext {
+    color: #11454F;
+    font-size: 20px;
+    font-family: "Handlee";
+    font-style:normal;
+    text-align:center;
+     line-height:35px; 
+}
+
+.floatright {
+    float:right; 
+}
+
+span1{
+    text-decoration:underline;
+}
+
+li {
+    list-style:circle;
+    line-height:50px; 
+    color:#3A6D94;
+    font-family:"Handlee";
+    font-size:20px; 
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+            .bodycolor {
+                    background-color:#D0DED4; 
+                }
+
+    
+            .navbartitle{
+                margin-left:-55px; 
+                color: #364959; 
+                font-size: 15px;
+                font-family: "Handlee"; 
+            }
+
+            nav li { 
+                display:inline;
+                padding-right:20px; 
+                margin-left:-30px;
+            }
+
+            nav a {
+                color: #11454F;
+                font-size: 10px;
+                font-family: "Handlee";
+                font-style:oblique;
+                box-sizing:border-box; 
+            }
+
+
+
+            .dropdown-content{
+                display:none; 
+                position:absolute; 
+                background-color:#D0DED4;
+                margin-left:-35px; 
+                min-width:50px;
+                z-index:1; 
+            }
+
+            .dropdown-text {
+                margin-top:-10px; 
+                margin-left:20px; 
+                max-width:80px; 
+                max-height:10px; 
+                display: inline-block;
+                font-size:10px;
+                text-decoration:none;
+                font-family:"Handlee";
+                font-style: normal;
+            }
+
+
+            #titlepagetext{
+                color::#F19D94;
+                font-size:35px;
+                font-family: "Handlee";
+                font-style:oblique;
+                font-weight: 400;
+                text-align:center;
+            }
+
+            #byvidatext{
+                padding-top:5px; 
+                color::#F19D94;
+                font-size: 20px;
+                font-family: "Handlee";
+                font-style:oblique;
+                font-weight: 400;
+                text-align:center; 
+            }
+        
+             #homedescription{ 
+                color:#8C807D; 
+                font-family: "Handlee"; 
+                font-size:15px; 
+                 text-align: center;
+                 padding-left:50px; 
+                 padding-right:50px; 
+            }
+
+            #homeimage {
+                margin-top:-40px; 
+                display:block;
+                margin-left:auto; 
+                margin-right:auto;
+                width:90%;
+
+            }
+    
+} 
+
+@media only screen and (min-width:768px) {
+    
+    .bodycolor {
+        background-color:#FAEBE0; 
+    }
+
+
+        .navbartitle{
+            margin-left:-40px; 
+            color: #364959; 
+            font-size: 30px;
+            font-family: "Handlee";
+        }
+
+        nav li { 
+            display:inline;
+            padding:40px;
+        }
+
+        nav a {
+            color: #11454F;
+            font-size: 20px;
+            font-family: "Handlee";
+            font-style:oblique;
+            box-sizing:border-box; 
+        }
+
+
+        .dropdownmenu{
+            display:inline-block;
+        }
+
+        .dropdown-content{
+            padding:10px;
+            margin-left:-20px; 
+            display:none; 
+            position:absolute; 
+            background-color:#FAEBE0;
+            min-width:80px;
+            z-index:1; 
+        }
+
+        .dropdown-text {
+            display: inline-block;
+            font-size:18px;
+            text-decoration:none;
+            font-family:"Handlee";
+            font-style: normal;
+        }
+
+
+        #titlepagetext{
+            color:#8C807D;
+            font-size: 60px;
+            font-family: "Handlee";
+            font-style:oblique;
+            font-weight: 400;
+            text-align:center;
+        }
+
+        #byvidatext{
+            color:#8C807D;
+            font-size: 40px;
+            font-family: "Handlee";
+            font-style:oblique;
+            font-weight: 400;
+            text-align:center; 
+        }
+
+        #homeimage {
+            margin-top:-30px; 
+            display:block;
+            margin-left:auto; 
+            margin-right:auto;
+            width:80%;
+
+        }
+
+        #homedescription{
+            text-align:center; 
+            color:#8C807D; 
+            font-family: "Handlee"; 
+            font-size:22px; 
+        }
+}
+
