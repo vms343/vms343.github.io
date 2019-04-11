@@ -1,0 +1,71 @@
+body{
+    background-color:#2A3D40; 
+    margin:40px; 
+}
+
+.grid-container{
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap:10px; 
+    grid-template-columns:39.35% 39.35% 38.35%;
+    background-color:#FFFFBC;
+ 
+}
+
+.chandler{
+    grid-column:2/span 1; 
+    grid-row: 1/ span 1; 
+}
+
+.monica{
+    grid-column:2/span 1; 
+    grid-row: 2/span 1;
+}
+
+.rachel {
+    grid-column:3/span 1; 
+    grid-row: 2/span 1;
+
+}
+
+.ross {
+    grid-column:1/span 1; 
+    grid-row: 1/ span 1;
+
+}
+
+.joey {
+    grid-column:1/span 1; 
+    grid-row: 2/span 1;
+
+}
+.phoebe{
+    grid-column:3/span 1; 
+    grid-row: 1/span 1;
+}
+
+
+.centerimage {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.titletext {
+    font-family:"Courier";
+    font-style:italic; 
+    font-size: 50px; 
+    text-align:center;
+    color:white; 
+}
+
+.charactertext {
+    font-family:"Courier"; 
+     font-style:italic; 
+    font-size:20px; 
+    font-style:bold; 
+}
+
+.image{
+    width:180px; 
+}
