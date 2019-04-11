@@ -1,0 +1,40 @@
+body{
+    background-color:#2A3D40; 
+    margin:40px; 
+}
+
+.container{
+    background-color:#FFFFBC;
+ 
+}
+
+.row{
+     grid-row-gap: 10px; 
+}
+
+.col{
+    grid-column-gap:10px;
+    font-family:"Courier"; 
+     font-style:italic; 
+    font-size:10px; 
+    font-style:bold;
+    font-size:10px; 
+}
+
+.centerimage {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.image{
+    width:300px; 
+}
+
+.titletext {
+    font-family:"Courier";
+    font-style:italic; 
+    font-size: 50px; 
+    text-align:center;
+    color:white; 
+}
