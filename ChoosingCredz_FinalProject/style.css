@@ -1,0 +1,553 @@
+.centerimage{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+/*main nav bar css */
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: white;
+    position:fixed; 
+    width:100%; 
+    z-index:2; 
+    height:70px; 
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+
+.logo {
+	margin: 0;
+    float:left;
+    padding-top: 8px; 
+    font-family: "Playfair Display";
+    font-size:20px;
+    color:#038C73;
+}
+
+.main-nav li a {
+    float:right;
+}
+
+.logo a {
+	padding: 10px 15px;
+    font-family: "Playfair Display";
+    font-size:18px;
+    color:#038C73;
+    text-decoration:none; 
+    
+}
+
+.main-nav a {
+	display: inline-block;
+    order:-1; 
+    flex-direction: row; 
+    padding: 15px;
+    font-family: "Playfair Display";
+    color: #038C73;
+    font-size:15px; 
+    
+}
+
+
+.main-nav a:hover {
+    text-decoration:underline;
+	color: #038C73;
+}
+
+.main-nav a.underline {
+	text-decoration:underline;
+}
+
+
+#logohome {
+    float:left;
+    margin-left:20px; 
+    vertical-align: middle;
+    width:50px; 
+    height:50px; 
+}
+
+
+/*home page*/
+#home {
+    height:1300px;
+    padding-top:120px; 
+    background-color:#F2F2F2;
+}
+
+.homerotatetext{
+    text-align:center; 
+    font-family: "Playfair Display";
+    color:#04BF9D; 
+    font-size:40px;
+}
+
+#appstorehome{
+    float:right;
+    padding-top:40px; 
+    padding-right:80px; 
+    width:20%; 
+}
+
+.wrapper {
+    display:flex; 
+}
+
+.first {
+    flex:1;
+}
+
+.second{
+    flex:1; 
+    display:flex; 
+    flex-direction:column; 
+}
+.home_images img {
+    display:block;
+    padding-top:80px;
+    padding-left:20px; 
+    padding-right:20px; 
+    width:80%;  
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+/*about page*/
+
+#about {
+    height:800px;
+    padding-top:120px; 
+    background-color:#2E9981; 
+}
+
+.title {
+    display:block;
+    padding-right:30px; 
+    text-align:center; 
+    width:400px; 
+    font-family: "Playfair Display";
+    color:white; 
+    font-size:50px;
+    font-weight:bold; 
+}
+
+.subtitle {
+    display:block;
+     text-align:center;
+     padding-top:20px; 
+    width:380px;
+    font-family: "Playfair Display";
+    color:white; 
+    font-size:26px;
+    
+}
+
+.homebody {
+    display:block; 
+    text-align:center;
+    padding-top:20px; 
+    width:380px; 
+    font-family: "Playfair Display";
+    color:white; 
+    font-size:20px; 
+}
+
+.abouttext {
+    float:right; 
+    text-align:center; 
+    padding-right:100px; 
+}
+
+#movie{
+    margin-left:200px;
+}
+
+/*features page*/
+
+#features {
+    height:1500px;
+    padding-top:110px; 
+    background-color:#EDEFF4; 
+}
+
+.featurestext { 
+    font-size:42px;
+    text-align:center; 
+    font-weight:bold;
+    font-family: "Playfair Display"; 
+    color:#038C73;
+}
+
+.cards {
+    display:flex; 
+    flex-direction:row; 
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    width:auto; 
+    height:auto; 
+}
+
+.card {
+    background-color:#5EA79B; 
+    height:300px; 
+    width:425px;  
+    flex: 0 1 calc(33.3%-1em);  
+    flex-direction:row;
+    padding-left:1.4em; 
+    padding-right:1.4em; 
+    margin-bottom:2em; 
+    border-radius:15px;
+
+}
+
+.cardheader {
+    color:white;   
+    font-family: "Playfair Display"; 
+    font-size:20px;
+    width:350px; 
+    text-align:center; 
+    padding-right:50px;
+    
+}
+
+#cardheaderhorizontal {
+    color:white;   
+    font-family: "Playfair Display";
+    font-size:20px; 
+    width:350px;
+    text-align:center;
+    padding-right:40px; 
+    
+}
+
+.card-main {
+    display:flex;  
+    justify-content:center; 
+    align-items:center; 
+    z-index:1; 
+}
+
+.imagecard {
+    display:flex; 
+    justify-content: center; 
+    border:0;  
+    padding-left: 2em; 
+    padding-right:2em; 
+    padding-top:2em; 
+    padding-bottom:2em;
+    width:55%;
+    transition: transform .2s;
+    z-index:1; 
+}
+
+#horizontalpic {
+    display:flex; 
+    justify-content: center; 
+    border:0;  
+    padding-left: 2em; 
+    padding-right:1em; 
+    padding-top:2em; 
+    padding-bottom:2em;
+    width:70%;
+    transition: transform .2s;
+    z-index:-1;  
+}
+
+#horizontalpic:hover{
+    transform: scale(1.4);
+    z-index:2; 
+}
+.imagecard:hover {
+    transform: scale(1.4);
+     z-index:2; 
+}
+
+/*download page*/
+
+#download {
+    height:1000px;
+    padding-top:110px; 
+    background-color:#E4EBEB; 
+}
+
+#downloadtext{
+    text-align: center; 
+    font-family: "Playfair Display";
+    font-size:20px; 
+}
+
+#appiconimage {
+    width:420px;
+    border-radius:80px; 
+}
+
+#appstore {
+    width:20%; 
+}
+
+/*share page*/
+
+#share {
+    height:600px;
+    padding-top:50px; 
+    background-color:white; 
+}
+
+.checked {
+  color: #1ED9A4;
+}
+
+.carouseltitle{
+    display:table-cell;
+    text-align:center;
+    vertical-align: middle; 
+    width:500px;
+    font-size:50px; 
+    font-family: "Gochi Hand";
+    color:#1ED9A4; 
+}
+
+.carouseltext{
+    text-align:center; 
+   width:500px;  
+    font-size:20px; 
+    font-family: "Playfair Display";
+}
+
+.share {
+    display:inline-block;
+    margin-right:100px; 
+    float:right;
+    width:255px; 
+    border:5px solid #038C73;
+}
+
+.share i {
+    padding:10px; 
+}
+
+#sharetext {
+    float:right; 
+    margin-right:150px; 
+    font-family: "Gochi Hand";
+    color:#1ED9A4; 
+    font-size:20px;
+}
+
+.image-zoom{
+  transition: transform .2s;
+  width:200px;
+  height:200px; 
+}
+
+.share:hover {
+  transform: scale(1.2);
+}
+
+.fa-beat {
+  animation:fa-beat 5s ease infinite;
+}
+
+@keyframes fa-beat {
+  0% {
+    transform:scale(1);
+  }
+  5% {
+    transform:scale(1.25);
+  }
+  20% {
+    transform:scale(1);
+  }
+  30% {
+    transform:scale(1);
+  }
+  35% {
+    transform:scale(1.25);
+  }
+  50% {
+    transform:scale(1);
+  }
+  55% {
+    transform:scale(1.25);
+  }
+  70% {
+    transform:scale(1);
+  }
+}
+
+.heart{
+   text-align:center; 
+}
+
+
+@media only screen and (max-width: 480px) {
+
+        #home { 
+            height:700px;
+    }
+
+        #logohome{ 
+            width:40px; 
+            height:40px;
+        }
+    
+    .main-nav a {
+        padding: 10px;
+        font-size:12px; 
+    
+        }
+    
+
+    .homerotatetext{ 
+        font-size:25px;
+    }
+
+    #appstorehome{ 
+        padding-right:20px; 
+        width:30%; 
+    }
+
+     .home_images img {
+        padding-top:50px;
+        width:100%;    
+    }
+
+    #about {
+        height:1100px;
+    }
+
+    .abouttext {
+        text-align:center; 
+    }
+
+    #movie{
+        width:70%;
+        margin-top:-25px; 
+        padding-bottom: 50px; 
+        margin-left:68px;
+
+    }
+
+    .title {
+        width:450px;
+        padding-left:220px; 
+        font-size:25px; 
+    }
+
+    .subtitle {
+        padding-top:20px; 
+        width:450px;
+        padding-left:200px; 
+        font-size:20px;
+
+    }
+
+    .homebody {
+       padding-left:200px;  
+        width:450px; 
+        font-size:15px; 
+    }
+
+    #features {
+        height:1600px;
+    }
+
+
+    .card {
+        height:400px; 
+        width:400px; 
+
+    }
+
+    .cardheader {
+        font-size:18px;
+        width:300px; 
+        text-align:center; 
+        margin-right:50px;
+
+    }
+
+    #cardheaderhorizontal {
+        font-size:18px; 
+        width:150px;
+        margin-right:-50px;  
+
+    }
+
+    .card-main {
+        display:flex;  
+        justify-content:center; 
+        align-items:center; 
+        z-index:1; 
+    }
+
+    .imagecard {
+        display:flex; 
+        justify-content: center; 
+        border:0;  
+        padding-left: 2em; 
+        padding-right:2em; 
+        padding-top:2em; 
+        padding-bottom:2em;
+        width:55%;
+        transition: transform .2s;
+        z-index:1; 
+    }
+
+    #horizontalpic {
+        display:flex; 
+        justify-content: center; 
+        border:0;  
+        padding-left: 1.5em; 
+        padding-right:1em; 
+        padding-top:2em; 
+        padding-bottom:2em;
+        width:70%;
+        transition: transform .2s;
+        z-index:-1;  
+    }
+
+    #download {
+        height:600px;
+    }
+
+    #downloadtext{
+        font-size:20px; 
+    }
+
+    #appiconimage {
+        width:300px;
+        border-radius:65px; 
+    }
+
+    #appstore {
+        width:30%; 
+    }
+
+    #share {
+        padding-top:140px; 
+        height:600px; 
+    }
+
+    .carouseltitle{
+        font-size:30px; 
+    }
+
+    .carouseltext{
+       width:400px;  
+        font-size:15px; 
+    }
+    
+}
+
+
+
+
