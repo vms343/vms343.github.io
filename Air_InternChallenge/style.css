@@ -1,0 +1,371 @@
+ html{
+        scroll-behavior: smooth;
+    }
+
+.bodystyle {
+        margin:0px;
+        background-color:#FFFFFF;
+        border-top: solid;
+        border-width: 3px;
+        border-color:#42EAD7;
+    }
+
+#background_img {
+        margin-top:-54px;
+        margin-left:-6px;
+        max-width:100%;
+        max-height:150%;
+        float:right;
+    }
+
+#logohome {
+        margin:12px;
+        width:5%; 
+    }
+
+    #welcometext {
+        padding-top:50px; 
+        color:#142A72;
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+        line-height: 150%;
+        margin-bottom:-5px;
+    }
+
+    #subtitletext {
+        color:#7EA6E0;
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        line-height: 150%;
+    }
+
+    .container {
+        display:flex;
+        flex-direction:column; 
+        align-items: center;
+        justify-content: center; 
+    }
+
+    input[type=text] {
+      padding: 12px 10px;
+      margin: 5px 10px;
+      box-sizing: border-box;
+        border-width:thin;
+        border-color:#9BC1EF;
+        border-radius: 2px;
+        box-shadow: none; 
+    }
+
+    input[type=password] {
+      padding: 12px 10px;
+      margin: 5px 10px;
+      box-sizing: border-box;
+        border-width:thin;
+        border-color:#9BC1EF;
+        border-radius: 2px;
+        box-shadow: none; 
+    }
+
+    .names {
+        display:flex; 
+        padding:10px;  
+    }
+
+    .row1 {
+        flex:1; 
+        font-family: SF Pro Display;
+    }
+
+    .row2 {
+        flex:2;
+        font-family: SF Pro Display;
+    }
+
+    .row3 {
+        flex:3;
+        font-family: SF Pro Display;
+    }
+
+    #pwd_container {
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #email {
+         width:200px;
+    }
+
+    #password {
+        width:200px;
+
+    }
+
+    #eyeopen {
+        margin-left:-35px;
+        width:15px;
+    }
+
+    #pwddescription {
+        color:#C1C1C1;
+        font-family: SF Pro Display;
+        font-size:8px; 
+        font-weight: normal;
+        text-align:center;
+        line-height: 150%;
+
+    }
+
+    #accountdescription {
+        color:#4D4D4D;
+        font-family: SF Pro Display;
+        font-size:10px; 
+        font-weight: normal;
+        text-align:center;
+        line-height: 150%;
+        padding-top:20px;
+    }
+
+    #login {
+        color:#7EA6E0;
+        font-family: SF Pro Display;
+        font-size:10px; 
+        font-weight: bold;
+        line-height: 150%;
+    }
+
+    #submitbutton {
+        height:30px;
+        width:150px;
+        margin-top:20px;
+        border-radius: 2px;
+        box-shadow: none; 
+        border: none;
+        background-color: #2954AF;
+        font-family: SF Pro Display;
+        color:white;
+        text-align: center;
+        display: inline-block;
+        font-size: 14px;
+    }
+
+
+/* styling sheet for mobile view */
+
+@media only screen and (max-width: 600px) {
+    
+    #background_img {
+        position:fixed;
+        margin-top:-56px;
+        height:400%;
+        opacity:100%;
+        z-index:-1;
+    }
+    
+    #logohome {
+       width:12%;
+    }
+    
+    #welcometext {
+        padding-top:20px; 
+        font-size: 30px;
+        color:#FFFFFF;
+    }
+    
+    #subtitletext {
+        color:#7EA6E0;
+        font-size: 15px;
+    }
+
+    input[type=text] {
+      margin: 5px 5px;
+        font-size:12px;
+    }
+
+    input[type=password] {
+      margin: 5px 5px;
+        font-size:12px;
+    }
+
+    #pwddescription {
+        font-size:10px; 
+
+    }
+
+    #accountdescription {
+        font-size:12px; 
+        padding-top:10px;
+    }
+
+    #login {
+        font-size:12px;
+    }
+
+    #submitbutton {
+        height:35px;
+        width:130px;
+        margin-top:10px;
+        background-color:#7EA6E0;
+        font-size:15px;
+    }
+    
+}
+
+/* styling sheet for tablet view */
+
+@media (max-width:768px) and (min-width:600px) {
+    
+    #background_img {
+        position:fixed;
+        margin-top:-56px;
+        width:100%;
+        height:1000%;
+        opacity:100%;
+        z-index:-1;
+    }
+    
+    #logohome {
+        margin:11px;
+        width:10%; 
+    }
+
+    #welcometext {
+        color:#FFFFFF;
+        padding-top:10px; 
+        font-size: 35px;
+    }
+
+    #subtitletext {
+        font-size: 15px;
+        
+    }
+
+    input[type=text] {
+      padding: 12px 12px;
+      margin: 5px 12px;
+    }
+
+    input[type=password] {
+      padding: 12px 12px;
+      margin: 5px 12px;
+    }
+
+    #email {
+         width:250px;
+    }
+
+    #password {
+        width:250px;
+
+    }
+
+    #eyeopen {
+        margin-left:-38px;
+    }
+
+    #pwddescription {
+        font-size:10px; 
+    }
+
+    #accountdescription {
+        font-size:11px; 
+        padding-top:5px;
+    }
+
+    #login {
+        font-size:11px; 
+    }
+
+    #submitbutton {
+        height:35px;
+        width:140px;
+        margin-top:10px;
+        font-size: 16px;
+    }
+    
+}
+
+
+/* styling sheet for web page view */
+
+@media only screen and (min-width:768px) {
+    
+    #background_img {
+        margin-top:-68px;
+        width:45%;
+        height:150%;
+        float:right;
+    }
+
+    #logohome {
+        margin:15px;
+        width:6%; 
+    }
+
+    #welcometext {
+        padding-top:40px; 
+        font-size: 40px;
+    }
+
+    #subtitletext {
+        color:#7EA6E0;
+        font-size: 20px;
+    }
+
+
+    input[type=text] {
+        font-size:15px;
+
+    }
+
+    input[type=password] {
+        font-size:15px;
+    }
+
+    #email {
+         width:300px;
+    }
+
+    #password {
+        width:300px;
+    }
+
+    #eyeopen {
+        margin-left:-42px;
+        width:18px;
+    }
+
+    #pwddescription {
+        font-size:11px; 
+
+    }
+
+    #accountdescription {
+        font-size:12px; 
+        padding-top:10px;
+    }
+
+    #login {
+        font-size:12px; 
+    }
+
+    #submitbutton {
+        height:34px;
+        width:200px;
+        margin-top:10px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    
+}
+
+
+
