@@ -1,0 +1,262 @@
+.bodycolor {
+    background-color: #D9D9D9;
+
+}
+
+.centerimage{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+/*main nav bar css */
+
+.header {
+    overflow: hidden; 
+    background-color: #D9D9D9;
+	padding: 20px 10px; 
+}
+
+.header a {
+    float: left; 
+    color: #353940; 
+    text-align: center; 
+    padding: 12px; 
+    text-decoration: none;
+    font-family:"Abhaya Libre";
+    font-size: 18px; 
+    line-height: 25px; 
+    border-radius: 4px;
+}
+
+.header a.logo{
+    font-family:"Abhaya Libre";
+    font-size: 25px; 
+    color: #353940; 
+}
+
+.header a.logo:hover{
+    text-decoration:none; 
+    
+}
+
+.header a:hover {
+    text-decoration:underline;
+	color: white;
+}
+
+
+.header-right {
+    float: right;
+}
+
+/* icons */
+
+.icons {
+    padding-top:20px;
+    padding-left:45px;
+}
+
+#linkedin {
+    display:inline-block;
+    width:40px;
+    height:40px;
+}
+
+#email {
+    display:inline-block;
+    width:50px;
+    padding-left: 10px; 
+}
+
+.card_div {
+    float:right;
+    width:75%;
+    padding-top:20px;
+    padding-right:100px;
+    padding-left:100px;
+    
+}
+
+.view_article_button {
+    width:50px;
+}
+
+/*main bio */
+.card-header {
+    font-family:"Abhaya Libre";
+    font-size: 18px; 
+    text-align:center;
+}
+
+
+/*main bio */
+
+.homebio {
+    display:block;
+    padding-top:50px;
+    padding-left:100px;
+     float: left;
+}
+
+.circle {
+    width:200px;
+    height:200px;
+    border-radius:50%; 
+}
+
+
+.biotitle {
+    font-family:"Abhaya Libre";
+    font-size:40px;
+    color: #353940;
+    text-align:center;
+}
+
+
+#journalist {
+    color: white;
+    font-size:22px;
+    font-family:"Abhaya Libre";
+    text-align:center;
+}
+
+
+/*about me page */
+
+.aboutme {
+    float:left;
+    width:710px;
+    margin-left:100px;
+    
+}
+
+.biotext {
+  
+    font-family:"Abhaya Libre";
+     color: #353940;
+    font-size: 20px;
+}
+
+#about_title {
+    font-family:"Abhaya Libre";
+    color: #353940;
+    font-size:40px;
+    padding-bottom:10px;
+}
+
+/* publications */
+
+.publications {
+    margin-top:20px;
+}
+
+
+#publications_title {
+    font-family:"Abhaya Libre";
+    color: #353940;
+    font-size:40px;
+    text-align: center;
+    margin:40px;
+}
+
+.sub_pubtitle {
+    font-family:"Abhaya Libre";
+    color:#353940;
+    font-size:30px;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+#lecture_image {
+    float: right;
+    width:30%;
+    padding-top:90px;
+    padding-right:50px;
+    margin:10px;
+}
+
+
+/* publications nav bar*/
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+    font-family:"Abhaya Libre";
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+    background-color:#485B73;
+}
+
+.topnav a.active {
+  background-color: #353940;
+  color: white;
+}
+
+/* cards */
+
+.card-title {
+    font-family: "Abhaya Libre";
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    font-family: "Abhaya Libre";
+}
+
+.text-muted {
+    font-family: "Abhaya Libre";
+}
+
+.view_article {
+    padding-bottom:15px;
+    text-align:center;
+    font-family:"Abhaya Libre";
+    font-size:16px;
+}
+
+/* sub nav -- pages */
+ 
+
+#JPIA {
+    height:1650px;
+    padding-top:50px;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:#D9D9D9;
+}
+
+#CooperSquared {
+   height:850px;
+    padding-top:20px; 
+    background-color:#E3E3E2; 
+}
+
+
+#ChicagoLawReview {
+    height:750px;
+    padding-top:30px;
+    background-color:#D9D9D9;
+    
+}
+
+#Other {
+    height:800px;
+    padding-top:40px;
+    background-color:#E3E3E2;
+}
+
