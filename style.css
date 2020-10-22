@@ -1,0 +1,132 @@
+/*main nav bar css */
+
+.header {
+    z-index:1;
+    overflow: hidden;
+    width:100%;
+    position:fixed;
+    background-color:white;
+}
+
+.header a {
+    float: left; 
+    color: #353940; 
+    text-align: center; 
+    padding: 12px; 
+    text-decoration: none;
+    font-family:"Open Sans";
+    font-size: 18px; 
+    line-height: 25px; 
+    border-radius: 4px;
+}
+
+.header a.homepageo{
+    font-family:"Open Sans";
+    font-size: 25px; 
+    color: #353940; 
+}
+
+.header a.homepage:hover{
+    text-decoration:underline; 
+    
+}
+
+.header a:hover {
+    text-decoration:underline;
+	color:#353D45;
+}
+
+
+.header-right {
+    float: right;
+}
+
+
+span1{
+    text-decoration:underline;
+}
+
+.titletext{
+    padding-top:50px;
+    font-size: 45px; 
+    font-family:"Open Sans";
+    text-align:center;
+    color:#353D45;
+    
+}
+#abouttext{
+    margin:40px;
+    font-family:"Open Sans";
+    font-size:20px;
+    text-align:center;
+    color:#353D45;
+    
+}
+.cardheight {
+    height:100%;
+}
+
+.card-header {
+    font-family:"Open Sans";
+    font-size: 18px; 
+    text-align:center;
+}
+
+.card-title {
+    font-family: "Open Sans";
+    text-align: center;
+    font-weight:bold;
+    color:#404040;
+}
+
+.card-text {
+    text-align: center;
+    font-family: "Open Sans";
+}
+
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+#bhotel {
+    float:left;
+    margin-top:20px;
+    height:450px;
+    padding-left:50px;
+}
+
+#fdistrict {
+    float:right;
+    margin-top:22px;
+    height:452px;
+
+    padding-right:50px;
+}
+
+.images {
+    margin:10px;
+    width:30%;
+}
+
+#home {
+    background-color:whitesmoke;
+    height:900px;
+    padding:30px;
+    padding-top:80px; 
+}
+
+#fairfax {
+    background-color:lightgray;
+    height:1700px;
+    padding:80px;
+
+}
+
+#beverlyhills {
+    background-color:gainsboro;
+    height:1700x;
+    padding:80px; 
+}
